@@ -1,0 +1,23 @@
+<div class="card text-center">
+  <div class="card-header">
+    News number
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">{{news.title}}</h4>
+    <p class="card-text">{{news.text}}</p>
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+  </div>
+  <div class="card-footer text-muted">
+    {{news.author}} - {{news.data}}
+  </div>
+</div>
+<div class="card-block">
+  <br>
+  <app-add-comment></app-add-comment>
+</div>
+
+<div class="card-block">
+  <h1>Comments: </h1>
+  <br>
+  <app-show-comments></app-show-comments>
+</div>
